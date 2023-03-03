@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;700;800&display=swap');
+
+body{
+    font-family: 'Raleway';
+}
+.vigor-primary-color{
+    color:#FDC411;
+}
+.vigor-bg-low-opacity{
+    background-color: #FFFFFF24;
+}
+.vigor-nav-container{
+    z-index: 10;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color:#FDC411;
+}
+.elementor-background-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #20201F 0%, #20201F91 100%);
+    opacity: 0.8;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.vigor-header-btn{
+    font-size: 12px;
+    font-weight: 600;
+    background: #FDC411;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+    padding: 15px 30px;
+}
+.home-header{
+    background-image: url(https://newkit.moxcreative.com/becony/wp-content/uploads/sites/16/2022/08/lf5rdchhbzu-e1660385541324.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-header-container{
+    min-height: 700px;
+}
+
+.home-header-heading{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: var(--e-global-typography-cf932a2-line-height );
+    letter-spacing: var(--e-global-typography-cf932a2-letter-spacing );
+    word-spacing: var(--e-global-typography-cf932a2-word-spacing );
+}
+
