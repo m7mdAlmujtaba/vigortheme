@@ -3,6 +3,15 @@
 body{
     font-family: 'Raleway';
 }
+.navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
+  }
+.navbar-nav .nav-item a{
+    color: #fff!important;
+    font-size: 16px;
+    font-weight:600;
+}
 .vigor-primary-color{
     color:#FDC411;
 }
@@ -13,7 +22,7 @@ body{
     z-index: 10;
 }
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
-    color:#FDC411;
+    color:#FDC411!important;
 }
 .elementor-background-overlay {
     height: 100%;
@@ -26,7 +35,7 @@ body{
     opacity: 0.8;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
-.vigor-header-btn{
+.vigor-btn{
     font-size: 12px;
     font-weight: 600;
     background: #FDC411;
@@ -55,3 +64,32 @@ body{
     word-spacing: var(--e-global-typography-cf932a2-word-spacing );
 }
 
+.z-index-10{
+    z-index: 10;
+}
+
+.z-index-20{
+    z-index: 20;
+}
+
+.vigor-small-title{
+    color: #F15543;
+}
+.vigor-h2-bold{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.elementor-widget-divider .elementor-divider-separator {
+    border-top: 1px parallelogram #FDC411;
+}
+
+.elementor-91 .elementor-element.elementor-element-cb678e8 .elementor-divider {
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.elementor-widget-divider .elementor-divider {
+    display: flex;
+}
