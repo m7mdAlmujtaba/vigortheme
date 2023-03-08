@@ -93,3 +93,41 @@ body{
 .elementor-widget-divider .elementor-divider {
     display: flex;
 }
+.vigor-blockquote:before {
+    
+}
+.vigor-blockquote--skin-quotation .vigor-blockquote:before {
+    content: "“";
+    font-size: 100px;
+    color: #FDC411;
+    font-family: Times New Roman,Times,serif;
+    font-weight: 900;
+    line-height: 1;
+    display: block;
+    height: 0.6em;
+}
+.vigor-counter-number-wrapper, .vigor-counter-number-suffix{
+    color: #FDC411;
+    font-size:70px;
+    font-weight: 800;
+}
+.vigor-counter-text{
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+    border-color: #4B4B4B;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.vigor-counter-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vigor-car-bg{
+    background-image: url(https://newkit.moxcreative.com/becony/wp-content/uploads/sites/16/2022/08/lamborghini.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 8em 1em 8em 1em;
+}
