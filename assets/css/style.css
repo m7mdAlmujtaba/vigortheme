@@ -50,7 +50,7 @@ h2 {
   font-size: 14px;
 }
 
-.vigor-background-overlay {
+.elementor-background-overlay {
   height: 100%;
   width: 100%;
   top: 0;
@@ -119,17 +119,17 @@ h2 {
     height: 260px;
     object-fit: cover;
 }
-.vigor-widget-divider .vigor-divider-separator {
+.elementor-widget-divider .elementor-divider-separator {
   border-top: 1px parallelogram #fdc411;
 }
 
-.vigor-91 .vigor-element.vigor-element-cb678e8 .vigor-divider {
+.elementor-91 .elementor-element.elementor-element-cb678e8 .elementor-divider {
   text-align: left;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-.vigor-widget-divider .vigor-divider {
+.elementor-widget-divider .elementor-divider {
   display: flex;
 }
 
@@ -179,7 +179,7 @@ h2 {
     padding: 0px 0px 0px 32px;
     margin-top: 1em;
 }
-.vigor-cta__content {
+.elementor-cta__content {
   text-align: left;
   padding: 20px 30px 0px 30px;
   background-color: #02010100;
@@ -193,15 +193,15 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.vigor-cta__bg-wrapper {
+.elementor-cta__bg-wrapper {
   min-height: 250px;
 }
-.vigor-cta__bg {
+.elementor-cta__bg {
   background-size: cover;
   background-position: 50%;
   z-index: 1;
 }
-.vigor-cta__bg, .vigor-cta__bg-overlay {
+.elementor-cta__bg, .elementor-cta__bg-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -211,7 +211,7 @@ h2 {
   -o-transition: all .4s;
   transition: all .4s;
 }
-.vigor-button {
+.elementor-button {
     fill: #20201F;
     color:#20201F;
     background-color: #02010100;
@@ -219,16 +219,16 @@ h2 {
     border-width: 0px 0px 1px 0px;
     padding: 0px 0px 5px 0px;
 }
-.vigor-button:hover, .vigor-91 .vigor-element.vigor-element-eb65928 .vigor-button:focus {
+.elementor-button:hover, .elementor-91 .elementor-element.elementor-element-eb65928 .elementor-button:focus {
     color: #20201F;
     border-color:#FDC411;
 }
 
-.vigor-cta__bg-wrapper {
+.elementor-cta__bg-wrapper {
   min-height: 250px;
 }
 
-.vigor-cta__content {
+.elementor-cta__content {
   text-align: left;
   padding: 20px 30px 0px 30px;
   background-color: #02010100;
@@ -242,7 +242,7 @@ h2 {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 8em 1em 8em 1em;
 }
-.vigor-icon-list-icon i {
+.elementor-icon-list-icon i {
     color: #FDC411;
 }
 
@@ -251,13 +251,13 @@ h2 {
 }
 
 // Posts
-.vigor-posts-container.vigor-has-item-ratio .vigor-post__thumbnail {
+.elementor-posts-container.elementor-has-item-ratio .elementor-post__thumbnail {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
-.vigor-posts .vigor-post__card .vigor-post__thumbnail img {
+.elementor-posts .elementor-post__card .elementor-post__thumbnail img {
   width: calc(100% + 1px);
 }
 .why-us-img img {
@@ -265,7 +265,7 @@ h2 {
   height: 560px;
   object-fit: cover;
 }
-.vigor-posts-container.vigor-has-item-ratio .vigor-post__thumbnail img {
+.elementor-posts-container.elementor-has-item-ratio .elementor-post__thumbnail img {
   height: auto;
   position: absolute;
   top: calc(50% + 1px);
@@ -280,13 +280,13 @@ h2 {
   color: #fdc411;
 }
 
-.vigor-widget-price-list .vigor-price-list {
+.elementor-widget-price-list .vigor-price-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.vigor-widget-price-list .vigor-price-list li {
+.elementor-widget-price-list .vigor-price-list li {
   margin: 0;
 }
 
@@ -431,7 +431,7 @@ h2 {
   padding: 40px 0;
 }
 
-.vigor-price-table .vigor-price-table__price .vigor-typo-excluded {
+.vigor-price-table .vigor-price-table__price .elementor-typo-excluded {
   line-height: normal;
   letter-spacing: normal;
   text-transform: none;
@@ -561,7 +561,7 @@ h2 {
   background-color: #fdc411;
 }
 
-.vigor-price-table__ribbon.vigor-ribbon-left {
+.vigor-price-table__ribbon.elementor-ribbon-left {
   -webkit-transform: rotate(0);
   -ms-transform: rotate(0);
   transform: rotate(0);
@@ -569,7 +569,7 @@ h2 {
   right: auto;
 }
 
-.vigor-price-table__ribbon.vigor-ribbon-right {
+.vigor-price-table__ribbon.elementor-ribbon-right {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -577,7 +577,7 @@ h2 {
   right: 0;
 }
 
-.vigor-widget-price-table .vigor-widget-container {
+.elementor-widget-price-table .elementor-widget-container {
   overflow: hidden;
   background-color: #f7f7f7;
 }
@@ -590,18 +590,18 @@ h2 {
   padding: 8em 1em 8em 1em;
 }
 
-.vigor-widget-social-icons.vigor-grid-0 .vigor-widget-container,
-.vigor-widget-social-icons.vigor-grid-mobile-0 .vigor-widget-container,
-.vigor-widget-social-icons.vigor-grid-tablet-0 .vigor-widget-container {
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
   line-height: 1;
   font-size: 0;
 }
 
-.vigor-widget-social-icons:not(.vigor-grid-0):not(.vigor-grid-tablet-0):not(.vigor-grid-mobile-0) .vigor-grid {
+.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
   display: inline-grid;
 }
 
-.vigor-widget-social-icons .vigor-grid {
+.elementor-widget-social-icons .elementor-grid {
   grid-column-gap: var(--grid-column-gap, 5px);
   grid-row-gap: var(--grid-row-gap, 5px);
   grid-template-columns: var(--grid-template-columns);
@@ -609,14 +609,14 @@ h2 {
   justify-items: var(--justify-content, center);
 }
 
-.vigor-icon.vigor-social-icon {
+.elementor-icon.elementor-social-icon {
   font-size: var(--icon-size, 25px);
   line-height: var(--icon-size, 25px);
   width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
   height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
 }
 
-.vigor-social-icon {
+.elementor-social-icon {
   --e-social-icon-icon-color: #fff;
   display: inline-flex;
   background-color: #818a91;
@@ -626,269 +626,269 @@ h2 {
   cursor: pointer;
 }
 
-.vigor-social-icon i {
+.elementor-social-icon i {
   color: var(--e-social-icon-icon-color);
 }
 
-.vigor-social-icon svg {
+.elementor-social-icon svg {
   fill: var(--e-social-icon-icon-color);
 }
 
-.vigor-social-icon:last-child {
+.elementor-social-icon:last-child {
   margin: 0;
 }
 
-.vigor-social-icon:hover {
+.elementor-social-icon:hover {
   opacity: .9;
   color: #fff;
 }
 
-.vigor-social-icon-android {
+.elementor-social-icon-android {
   background-color: #a4c639;
 }
 
-.vigor-social-icon-apple {
+.elementor-social-icon-apple {
   background-color: #999;
 }
 
-.vigor-social-icon-behance {
+.elementor-social-icon-behance {
   background-color: #1769ff;
 }
 
-.vigor-social-icon-bitbucket {
+.elementor-social-icon-bitbucket {
   background-color: #205081;
 }
 
-.vigor-social-icon-codepen {
+.elementor-social-icon-codepen {
   background-color: #000;
 }
 
-.vigor-social-icon-delicious {
+.elementor-social-icon-delicious {
   background-color: #39f;
 }
 
-.vigor-social-icon-deviantart {
+.elementor-social-icon-deviantart {
   background-color: #05cc47;
 }
 
-.vigor-social-icon-digg {
+.elementor-social-icon-digg {
   background-color: #005be2;
 }
 
-.vigor-social-icon-dribbble {
+.elementor-social-icon-dribbble {
   background-color: #ea4c89;
 }
 
-.vigor-social-icon-vigor {
+.elementor-social-icon-elementor {
   background-color: #d30c5c;
 }
 
-.vigor-social-icon-envelope {
+.elementor-social-icon-envelope {
   background-color: #ea4335;
 }
 
-.vigor-social-icon-facebook,
-.vigor-social-icon-facebook-f {
+.elementor-social-icon-facebook,
+.elementor-social-icon-facebook-f {
   background-color: #3b5998;
 }
 
-.vigor-social-icon-flickr {
+.elementor-social-icon-flickr {
   background-color: #0063dc;
 }
 
-.vigor-social-icon-foursquare {
+.elementor-social-icon-foursquare {
   background-color: #2d5be3;
 }
 
-.vigor-social-icon-free-code-camp,
-.vigor-social-icon-freecodecamp {
+.elementor-social-icon-free-code-camp,
+.elementor-social-icon-freecodecamp {
   background-color: #006400;
 }
 
-.vigor-social-icon-github {
+.elementor-social-icon-github {
   background-color: #333;
 }
 
-.vigor-social-icon-gitlab {
+.elementor-social-icon-gitlab {
   background-color: #e24329;
 }
 
-.vigor-social-icon-globe {
+.elementor-social-icon-globe {
   background-color: #818a91;
 }
 
-.vigor-social-icon-google-plus,
-.vigor-social-icon-google-plus-g {
+.elementor-social-icon-google-plus,
+.elementor-social-icon-google-plus-g {
   background-color: #dd4b39;
 }
 
-.vigor-social-icon-houzz {
+.elementor-social-icon-houzz {
   background-color: #7ac142;
 }
 
-.vigor-social-icon-instagram {
+.elementor-social-icon-instagram {
   background-color: #262626;
 }
 
-.vigor-social-icon-jsfiddle {
+.elementor-social-icon-jsfiddle {
   background-color: #487aa2;
 }
 
-.vigor-social-icon-link {
+.elementor-social-icon-link {
   background-color: #818a91;
 }
 
-.vigor-social-icon-linkedin,
-.vigor-social-icon-linkedin-in {
+.elementor-social-icon-linkedin,
+.elementor-social-icon-linkedin-in {
   background-color: #0077b5;
 }
 
-.vigor-social-icon-medium {
+.elementor-social-icon-medium {
   background-color: #00ab6b;
 }
 
-.vigor-social-icon-meetup {
+.elementor-social-icon-meetup {
   background-color: #ec1c40;
 }
 
-.vigor-social-icon-mixcloud {
+.elementor-social-icon-mixcloud {
   background-color: #273a4b;
 }
 
-.vigor-social-icon-odnoklassniki {
+.elementor-social-icon-odnoklassniki {
   background-color: #f4731c;
 }
 
-.vigor-social-icon-pinterest {
+.elementor-social-icon-pinterest {
   background-color: #bd081c;
 }
 
-.vigor-social-icon-product-hunt {
+.elementor-social-icon-product-hunt {
   background-color: #da552f;
 }
 
-.vigor-social-icon-reddit {
+.elementor-social-icon-reddit {
   background-color: #ff4500;
 }
 
-.vigor-social-icon-rss {
+.elementor-social-icon-rss {
   background-color: #f26522;
 }
 
-.vigor-social-icon-shopping-cart {
+.elementor-social-icon-shopping-cart {
   background-color: #4caf50;
 }
 
-.vigor-social-icon-skype {
+.elementor-social-icon-skype {
   background-color: #00aff0;
 }
 
-.vigor-social-icon-slideshare {
+.elementor-social-icon-slideshare {
   background-color: #0077b5;
 }
 
-.vigor-social-icon-snapchat {
+.elementor-social-icon-snapchat {
   background-color: #fffc00;
 }
 
-.vigor-social-icon-soundcloud {
+.elementor-social-icon-soundcloud {
   background-color: #f80;
 }
 
-.vigor-social-icon-spotify {
+.elementor-social-icon-spotify {
   background-color: #2ebd59;
 }
 
-.vigor-social-icon-stack-overflow {
+.elementor-social-icon-stack-overflow {
   background-color: #fe7a15;
 }
 
-.vigor-social-icon-steam {
+.elementor-social-icon-steam {
   background-color: #00adee;
 }
 
-.vigor-social-icon-stumbleupon {
+.elementor-social-icon-stumbleupon {
   background-color: #eb4924;
 }
 
-.vigor-social-icon-telegram {
+.elementor-social-icon-telegram {
   background-color: #2ca5e0;
 }
 
-.vigor-social-icon-thumb-tack {
+.elementor-social-icon-thumb-tack {
   background-color: #1aa1d8;
 }
 
-.vigor-social-icon-tripadvisor {
+.elementor-social-icon-tripadvisor {
   background-color: #589442;
 }
 
-.vigor-social-icon-tumblr {
+.elementor-social-icon-tumblr {
   background-color: #35465c;
 }
 
-.vigor-social-icon-twitch {
+.elementor-social-icon-twitch {
   background-color: #6441a5;
 }
 
-.vigor-social-icon-twitter {
+.elementor-social-icon-twitter {
   background-color: #1da1f2;
 }
 
-.vigor-social-icon-viber {
+.elementor-social-icon-viber {
   background-color: #665cac;
 }
 
-.vigor-social-icon-vimeo {
+.elementor-social-icon-vimeo {
   background-color: #1ab7ea;
 }
 
-.vigor-social-icon-vk {
+.elementor-social-icon-vk {
   background-color: #45668e;
 }
 
-.vigor-social-icon-weibo {
+.elementor-social-icon-weibo {
   background-color: #dd2430;
 }
 
-.vigor-social-icon-weixin {
+.elementor-social-icon-weixin {
   background-color: #31a918;
 }
 
-.vigor-social-icon-whatsapp {
+.elementor-social-icon-whatsapp {
   background-color: #25d366;
 }
 
-.vigor-social-icon-wordpress {
+.elementor-social-icon-wordpress {
   background-color: #21759b;
 }
 
-.vigor-social-icon-xing {
+.elementor-social-icon-xing {
   background-color: #026466;
 }
 
-.vigor-social-icon-yelp {
+.elementor-social-icon-yelp {
   background-color: #af0606;
 }
 
-.vigor-social-icon-youtube {
+.elementor-social-icon-youtube {
   background-color: #cd201f;
 }
 
-.vigor-social-icon-500px {
+.elementor-social-icon-500px {
   background-color: #0099e5;
 }
 
-.vigor-shape-rounded .vigor-icon.vigor-social-icon {
+.elementor-shape-rounded .elementor-icon.elementor-social-icon {
   border-radius: 10%;
 }
 
-.vigor-shape-circle .vigor-icon.vigor-social-icon {
+.elementor-shape-circle .elementor-icon.elementor-social-icon {
   border-radius: 50%;
 }
 
-.vigor-button.vigor-hidden,
-.vigor-hidden {
+.elementor-button.elementor-hidden,
+.elementor-hidden {
   display: none;
 }
 
@@ -896,7 +896,7 @@ h2 {
   width: 100%;
 }
 
-.e-form__step:not(.vigor-hidden) {
+.e-form__step:not(.elementor-hidden) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1117,34 +1117,34 @@ h2 {
   margin-top: calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2);
 }
 
-.vigor-field-type-hidden {
+.elementor-field-type-hidden {
   display: none;
 }
 
-.vigor-field-type-html {
+.elementor-field-type-html {
   display: inline-block;
 }
 
-.vigor-login .vigor-lost-password,
-.vigor-login .vigor-remember-me {
+.elementor-login .elementor-lost-password,
+.elementor-login .elementor-remember-me {
   font-size: .85em;
 }
 
-.vigor-field-type-recaptcha_v3 .vigor-field-label {
+.elementor-field-type-recaptcha_v3 .elementor-field-label {
   display: none;
 }
 
-.vigor-field-type-recaptcha_v3 .grecaptcha-badge {
+.elementor-field-type-recaptcha_v3 .grecaptcha-badge {
   z-index: 1;
 }
 
-.vigor-button .vigor-form-spinner {
+.elementor-button .elementor-form-spinner {
   -webkit-box-ordinal-group: 4;
   -ms-flex-order: 3;
   order: 3;
 }
 
-.vigor-form .vigor-button > span {
+.elementor-form .elementor-button > span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1156,18 +1156,18 @@ h2 {
   align-items: center;
 }
 
-.vigor-form .vigor-button .vigor-button-text {
+.elementor-form .elementor-button .elementor-button-text {
   white-space: normal;
   -webkit-box-flex: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
 }
 
-.vigor-form .vigor-button svg {
+.elementor-form .elementor-button svg {
   height: auto;
 }
 
-.vigor-form .vigor-button .e-font-icon-svg {
+.elementor-form .elementor-button .e-font-icon-svg {
   height: 1em;
 }
 
